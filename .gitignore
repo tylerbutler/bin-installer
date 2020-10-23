@@ -4,9 +4,6 @@ node_modules/
 # Build
 dist/
 
-# Development
-.vscode
-
 # Logs
 *.log
 
@@ -15,3 +12,5 @@ dist/
 *.old
 *.temp
 *.tmp
+
+bin/
