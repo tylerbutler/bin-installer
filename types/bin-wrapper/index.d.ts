@@ -25,7 +25,7 @@ declare class bin_wrapper {
     download(): Promise<void>;
     path(): string;
     run(...cmd: string[]): void;
-    src(url: string, arch?: bin_wrapper.Architecture, platform?: bin_wrapper.Platform): bin_wrapper;
+    src(url: string, platform?: bin_wrapper.Platform, arch?: bin_wrapper.Architecture): bin_wrapper;
     src(): bin_wrapper.BinSource;
     use(binary: string): bin_wrapper;
     use(): string;
