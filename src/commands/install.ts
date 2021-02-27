@@ -7,11 +7,10 @@
 import del from "del";
 import fs from "fs";
 import path from "path";
-import { builtInBundles, Bundle, failedBundle } from "../bundle";
-
 import BinWrapper from "bin-wrapper";
 import osFilterObject = require("os-filter-obj");
 import yargs from "yargs";
+import { builtInBundles, Bundle, failedBundle } from "../bundles";
 
 const defaultDestination = "bin";
 
